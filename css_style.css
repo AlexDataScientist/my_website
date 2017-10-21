@@ -25,10 +25,11 @@ header{
 
 nav{
   background-color: #011627;
+  opacity: 0.9;
   position: fixed;
   width: 100%;
   height: 10%;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   text-align: center;
   background-size: cover;
 }
@@ -66,7 +67,6 @@ footer a{
   text-transform: uppercase;
   color: white;
   text-decoration: none;
-
 }
 
 #contact{
@@ -76,4 +76,116 @@ footer a{
 
 #contact li{
   margin-right: 20px;
+}
+
+#quotes{
+  background-color: #011627;
+  color: white;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.Presentation{
+  margin: auto;
+  background: url("images/photo_prez.png") no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  width: 40%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.Presentation h1{
+  background: #011627;
+  background-size: cover;
+  opacity: 0.9;
+  color: white;
+  width: 25%;
+  margin: 0px;
+  border-radius: 15px 0 0 15px;
+}
+
+.CV{
+  margin: auto;
+  background: url("images/photo_CV.png") no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  width: 40%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.CV h1{
+  background: #011627;
+  background-size: cover;
+  opacity: 0.9;
+  color: white;
+  width: 25%;
+  margin: 0px;
+  border-radius: 15px 0 0 15px;
+}
+
+.MachineLearning{
+  margin: auto;
+  background: url("images/photo_ml.png") no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  width: 40%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.MachineLearning h1{
+  background: #011627;
+  background-size: cover;
+  opacity: 0.9;
+  color: white;
+  width: 25%;
+  margin: 0px;
+  border-radius: 15px 0 0 15px;
+}
+
+.BigData{
+  margin: auto;
+  background: url("images/photo_bigdata.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  width: 40%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.BigData h1{
+  background: #011627;
+  background-size: cover;
+  opacity: 0.9;
+  color: white;
+  width: 25%;
+  margin: 0px;
+  border-radius: 15px 0 0 15px;
+}
+
+#texte{
+  color: white;
+}
+
+#linkedin{
+  height: auto;
+  width: auto;
+  max-width: 50px;
+  max-height: 50px;
 }
